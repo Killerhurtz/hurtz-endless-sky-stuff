@@ -1,0 +1,112 @@
+outfit "Star gun"
+	category "Guns"
+	cost 29000
+	thumbnail "outfit/laser"
+	"mass" 8
+	"outfit space" -8
+	"weapon capacity" -8
+	"gun ports" -1
+	weapon
+		sprite "projectile/laser"
+			"frame rate" 1
+		sound "laser"
+		"hit effect" "beam laser impact"
+		"inaccuracy" 0
+		"velocity" 300
+		"lifetime" 1
+		"reload" 80
+		"firing energy" .5
+		"firing heat" 1.2
+		"shield damage" 1
+		"hull damage" 1.3
+		"submunition" "start"
+	description "In the early part of the space era, the settlements in the region of space known as the Deep developed in relative isolation from the rest of human space. One result of that isolation is that their weapons technology mostly uses beam weapons, instead of the energy projectile weapons that are more common elsewhere. A Beam Laser has a slightly shorter range than an Energy Blaster, but is also much more energy-efficient and does a comparable amount of damage."
+	
+	
+outfit "start"
+	weapon
+		sprite "projectile/grab-strike"
+			"frame rate" 1
+		"hit effect" "beam laser impact"
+		"inaccuracy" 0
+		"velocity" 0
+		"lifetime" 3
+		"reload" 80
+		"firing energy" .5
+		"firing heat" 1.2
+		"shield damage" 1
+		"hull damage" 1.3
+		"acceleration" 0.0001
+		"drag" 1
+		"submunition" "start2"
+		
+outfit "start2"
+	weapon
+		sprite "projectile/grab-strike"
+			"frame rate" 1
+		"hit effect" "beam laser impact"
+		"inaccuracy" 0
+		"velocity" 0
+		"lifetime" 2
+		"reload" 80
+		"firing energy" .5
+		"firing heat" 1.2
+		"shield damage" 1
+		"hull damage" 1.3
+		"acceleration" 0.0001
+		"drag" 0
+		"turn" 36
+		"submunition" "stargo"
+		
+outfit "stargo"
+	weapon
+		sprite "projectile/laser"
+			"frame rate" 1
+		sound "laser"
+		"hit effect" "beam laser impact"
+		"inaccuracy" 0
+		"velocity" 300
+		"lifetime" 1
+		"reload" 80
+		"firing energy" .5
+		"firing heat" 1.2
+		"shield damage" 1
+		"hull damage" 1.3
+		"submunition" "starstop"
+		
+outfit "starstop"
+	weapon
+		sprite "projectile/grab-strike"
+			"frame rate" 1
+		"hit effect" "beam laser impact"
+		"inaccuracy" 0
+		"velocity" 0
+		"lifetime" 3
+		"reload" 80
+		"firing energy" .5
+		"firing heat" 1.2
+		"shield damage" 1
+		"hull damage" 1.3
+		"acceleration" 0.0001
+		"drag" 1
+		"submunition" "starturn"
+
+outfit "starturn"
+	weapon
+		sprite "projectile/grab-strike"
+			"frame rate" 1
+		"hit effect" "beam laser impact"
+		"inaccuracy" 0
+		"velocity" 0
+		"lifetime" 2
+		"reload" 80
+		"firing energy" .5
+		"firing heat" 1.2
+		"shield damage" 1
+		"hull damage" 1.3
+		"acceleration" 0.0001
+		"drag" 0
+		"turn" 144
+		"submunition" "stargo"
+		
+		
